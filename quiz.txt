@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+void main() {
+
+int choice=0;
+int answer1=2;
+int answer2=5;
+
+printf("Q.Which one is anmial? Choose two answers.\n");
+printf("1.Book\n2.Tiger\n3.Tree\n4.Sunflower\n5.Cat\n");
+scanf_s("%d",&choice);
+
+choice==answer1||choice==answer2?printf("Correct\n"):printf("Wrong\n");
+
+}
